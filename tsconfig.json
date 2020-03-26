@@ -1,0 +1,8 @@
+// Configuração do compilador do TypeScript.
+{
+    "compilerOptions":{
+        "noEmitOnError": false, //O padrão é false para aparecer os erros de código
+        "outDir": "dist" //Arquivos de distribuições código gerado será enviado para o src de produção
+    },
+    "compileOnSave": true
+}
